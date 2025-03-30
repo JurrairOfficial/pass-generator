@@ -7,6 +7,43 @@
     <title>pass-generator</title>
 </head>
 <body>
+    <main>
+        <div class="Container">
+            <div class="pass">
+                <h1>Password Generator</h1>
+            </div>
+            <div class="inputbox">
+                <input type="text" class="passbox" disabled>
+            </div>
+            <div>
+                
+                
+                <input type="range" min="1" max="30" value="8" class="bar">
+                <div class="row">
+                    <p>Password Length</p>
+                    <spam>4</spam>
+                </div>
+
+            </div>
+            <div class="LowerCase">
+                <label for="LowerCase">Include LowerCase Letters (a-z)</label>
+                <input type="checkbox" name="LowerCase" id="LowerCase">
+            </div>
+            <div class="UpperCase">
+                <label for="UpperCase">Include UpperCase Letters (A-Z)</label>
+                <input type="checkbox" name="UpperCase" id="UpperCase">
+            </div>
+            <div class="Numbers">
+                <label for="Numbers">Include Numbers (0-9)</label>
+                <input type="checkbox" name="Numbers" id="Numbers">
+            </div>
+            <div class="Symbols">
+                <label for="Symbols">Include Symbols (@-%)</label>
+                <input type="checkbox" name="Symbols" id="Symbols">
+            </div>
+            <button class="Create Password">Generator Password</button>
+        </div>
+    </main>
     
 </body>
 <script src="js.js"></script>

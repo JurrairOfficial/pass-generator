@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right bottom, #ffa585, #45c5d8);
+
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 2px;
+    padding: 28px 32px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: white;
+    margin-block: 8px;
+}
+
+.passbox {
+    border: white;
+    background-color: white;
+    outline: none;
+    padding: 10px;
+    width: 380px;
+    font-size: 25px;
+    border-radius: 7px;
+
+}
+
+.bar {
+    padding: 3px;
+    width: 395px;
+    
+}
+.row {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Apply Flexbox for alignment of labels and checkboxes */
+.LowerCase, .UpperCase, .Numbers, .Symbols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 10px;  /* Add space between these sections */
+    font-size: 25px;
+    color: white;
+}
+
+/* Make sure the label and checkbox have a consistent spacing */
+.LowerCase input, .UpperCase input, .Numbers input, .Symbols input {
+    margin-left: 10px;  /* Adjust distance between checkbox and label */
+    color: white;
+}
+.Create {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    padding: 10px 10px;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
