@@ -69,6 +69,27 @@ h1 {
     margin-left: 10px;  /* Adjust distance between checkbox and label */
     color: white;
 }
+
+.LowerCase input[type="checkbox"]{
+  height: 20px;
+  width: 20px;  
+}
+.UpperCase input[type="checkbox"]{
+    height: 20px;
+    width: 20px;  
+  }
+  .Numbers input[type="checkbox"]{
+    height: 20px;
+    width: 20px;  
+  }
+  .Symbols input[type="checkbox"]{
+    height: 20px;
+    width: 20px;  
+  }
+  .LowerCase input[type="checkbox"]{
+    height: 20px;
+    width: 20px;  
+  }
 .Create {
     box-shadow: none;
     outline: none;
