@@ -90,7 +90,7 @@ h1 {
     height: 20px;
     width: 20px;  
   }
-.Create {
+.GeneratePassword {
     box-shadow: none;
     outline: none;
     border: none;
@@ -104,6 +104,12 @@ h1 {
     color: white;
 }
 
+.GeneratePassword:hover {
+    cursor: pointer;
+    background-color: #0066ff;
+    
+
+}
 
 
 
